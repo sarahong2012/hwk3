@@ -1,0 +1,252 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  margin: auto;
+  width: 1200px;
+  background: #f0efef;
+}
+
+header {
+  background: #1d3349;
+  background-size: cover;
+  width: 1200px;
+}
+
+header h1 {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 45px;
+font-weight: 800;
+text-align: left;
+color: #ffffff;
+height: 90px;
+padding-left:60px;
+padding-top: 30px;
+display: inline-block;
+}
+
+header ul {
+  text-align: right;
+  padding-right: 40px;
+  list-style: none;
+  display: inline;
+}
+
+header ul li {
+  display: inline;
+  padding-left: 2px;
+  padding-right: 40px;
+}
+
+header a {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #c9bf52;
+  font-size: 24px;
+  padding-bottom: 100px;
+}
+
+.mid {
+  float: left;
+  width: 700px;
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-bottom: 50px;
+}
+
+.post {
+  float: left;
+  font-size: 24px;
+  font-weight: 300px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.firstcharacter { 
+  float: left; 
+  color: #033048; 
+  font-size: 90px; 
+}
+
+aside {
+  float: right;
+  width: 240px;
+  padding-top: 40px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 800;
+  width: 240px;
+  line-height: 60px;
+  text-align: left;
+}
+
+h4 a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: right;
+  float: right;
+  color: #033048;
+}
+
+aside h4 a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: right;
+}
+
+aside a {
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+  display: inline-table;
+  float: left;
+}
+
+aside p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+aside img {
+  padding-top: 40px;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+
+.bottom-bar {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 120px;
+  padding-top: 50px;
+  clear: both;
+}
+
+.bottom-bar a {
+  background: #033048;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 100px;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+  padding-top: 20px;
+  clear: both;
+}
+
+.footer-bar {
+  background-color: #121212;
+  text-align: center;
+  height: 250px;
+  clear: both;
+}
+
+.footer-bar h1 {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 45px;
+font-weight: 800;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #f9e42e;
+height: 90px;
+clear: both;
+}
+
+.footer-bar #social-icons a {
+  text-align: center;
+  background: #121212;
+  line-height: 60px;
+  clear: both;
+  margin: 20px;
+}
+
+footer {
+clear: both;
+}
+
+footer h5 {
+  color: #ffffff;
+  padding: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
